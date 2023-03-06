@@ -1,0 +1,22 @@
+{
+  "name": "marytech-inc/sonata-admin-gpt",
+  "description": "Provide crud actions with GPT from OpenAI for Symfony Sonata admin",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Yurii Koida",
+      "email": "your@email.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4",
+    "symfony/framework-bundle": "^4.4|^5.3",
+    "symfony/http-kernel": "^4.4 || ^5.0 || ^6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "MaryTech\\SonataAdminGPT\\": "src/"
+    }
+  }
+}
